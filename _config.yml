@@ -1,0 +1,18 @@
+# Site settings
+title: Prism Shell - a high intensity sci-fi mobile action game
+email: hello@brooklyngamery.com
+description: > # this means to ignore newlines until "baseurl:"
+  Dodge alien attacks, shift into better firing positions, 
+  and collect money for upgrades. You are Earth’s last chance for survival. 
+  Can you and Major Beretta pilot the Prism Shell to victory?
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://prismshell.com" # the base hostname & protocol for your site
+twitter_username: BrooklynGamery
+github_username:  BrooklynGamery
+
+# Build settings
+markdown: kramdown
+
+# Gems
+gems:
+- jekyll-compass
