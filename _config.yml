@@ -5,8 +5,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Dodge alien attacks, shift into better firing positions, 
   and collect money for upgrades. You are Earth’s last chance for survival. 
   Can you and Major Beretta pilot the Prism Shell to victory?
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://brooklyngamery.com/prismshell" # the base hostname & protocol for your site
+baseurl: "prismshell" # the subpath of your site, e.g. /blog/
+url: "http://brooklyngamery.com" # the base hostname & protocol for your site
 twitter_username: BrooklynGamery
 github_username:  BrooklynGamery
 
