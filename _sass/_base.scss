@@ -25,6 +25,7 @@ body {
     right:0;
     @include animation(animatedBackground 60s linear infinite);
     transition-property: background-position;
+    z-index:-1;
   }
 
 	&:after {
