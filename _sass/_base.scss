@@ -56,14 +56,14 @@ p, ul {
 }
 
 a {
-	color:$green;
+	color:$greenL1;
 	text-decoration:none;
   padding-bottom:3px;
-  border-bottom:1px solid $green;
+  border-bottom:1px solid $greenL1;
 	
 	&:hover {
-		color:$greenL1;
-		border-bottom:1px solid $greenL1;
+		color:$greenL2;
+		border-bottom:1px solid $greenL2;
 	}
 }
 
@@ -134,4 +134,14 @@ img {
     font-size:.75em;
     color:rgba(255,255,255,.5);
   }
+
+  a {
+  color:$green;
+  border-bottom-color: $green;
+  
+  &:hover {
+    color:$greenL1;
+    border-bottom-color: $greenL1;
+  }
+}
 }
