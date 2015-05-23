@@ -38,13 +38,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size:2.5em;
-  margin-top:0;
+	font-size:1.8em;
+  margin: 0;
 }
 
 h2 {
-	font-size:2em;
-  margin-bottom:0;
+	font-size:1.5em;
+  margin-bottom:.25em;
   
   + ul {
     margin-top:0;
@@ -125,6 +125,23 @@ img {
   box-shadow:inset 0 0 10px rgba(0,0,0,.5);
 }
 
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 20px;
+
+  iframe, object, embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
 .footer {
   border-top:1px dotted rgba(255,255,255,.5);
   margin-top:50px;
@@ -136,12 +153,12 @@ img {
   }
 
   a {
-  color:$green;
-  border-bottom-color: $green;
-  
-  &:hover {
-    color:$greenL1;
-    border-bottom-color: $greenL1;
+    color:$green;
+    border-bottom-color: $green;
+    
+    &:hover {
+      color:$greenL1;
+      border-bottom-color: $greenL1;
+    }
   }
-}
 }
