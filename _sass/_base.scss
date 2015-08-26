@@ -165,4 +165,19 @@ img {
       border-bottom-color: $greenL1;
     }
   }
+
+  .footer-logo {
+    border-bottom: none;
+    display: inline-block;
+    margin-top: 10px;
+    padding-bottom: 0;
+
+    img {
+      height: 60px;
+    }
+
+    + .footer-logo {
+      margin-left: 10px;
+    }
+  }
 }
